@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/helping_hands/assets/images/meetings-page-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+	
+}
+
+header {
+	background-color: grey;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.step {
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.step.active {
+    background-color: red;
+    color: white;
+}
+
+.menu-section {
+    display: none;
+}
+
+.menu-section.active {
+    display: block;
+}
+
+.total-amount {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 10px 0;
+}

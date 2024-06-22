@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thaagam Foundation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+    <div class="container">
+        <header>
+            <h1>Helping Hand Foundation</h1>
+        </header>
+        <main>
+            <h2>Select Base</h2>
+            <p>Total Orphanage Members: 150</p>
+            <div class="steps">
+                <div class="step active" data-step="base">Base</div>
+                <div class="step" data-step="gravy">Gravy</div>
+                <div class="step" data-step="protein">Protein</div>
+                <div class="step" data-step="veggies">Veggies</div>
+                <div class="step" data-step="touches">Touches</div>
+                <div class="step" data-step="sweets">Sweets</div>
+            </div>
+			
+            <div id="base" class="menu-section active">
+                <label><input type="checkbox" value="30"> White Rice - Rs.30</label><br>
+                <label><input type="checkbox" value="40"> Tomato Rice - Rs.40</label><br>
+                <label><input type="checkbox" value="40"> Lemon Rice - Rs.40</label><br>
+                <label><input type="checkbox" value="50"> Biryani Rice - Rs.50</label><br>
+                <label><input type="checkbox" value="40"> Jeera Rice - Rs.40</label><br>
+                <label><input type="checkbox" value="50"> Vegetable Pulao - Rs.50</label><br>
+                <label><input type="checkbox" value="30"> Chapati - Rs.30</label><br>
+                <label><input type="checkbox" value="40"> Poori - Rs.40</label><br>
+                <label><input type="checkbox" value="50"> Puliyogare (Tamarind Rice) - Rs.50</label><br>
+                <label><input type="checkbox" value="50"> Parotta - Rs.50</label><br>
+                <label><input type="checkbox" value="30"> Upma - Rs.30</label><br>
+                <label><input type="checkbox" value="50"> Dosa - Rs.50</label><br>
+                <label><input type="checkbox" value="30"> Idli - Rs.30</label>
+            </div>
+            <div id="gravy" class="menu-section">
+                <!-- Add gravy items here -->
+				 <label><input type="checkbox" value="30"> Sambar - Rs.30</label><br>
+                <label><input type="checkbox" value="40"> Rasam - Rs.40</label><br>
+                <label><input type="checkbox" value="50"> Kurma - Rs.50</label><br>
+                <label><input type="checkbox" value="40"> Dal Tadka - Rs.40</label><br>
+                <label><input type="checkbox" value="50"> Paneer Butter Masala - Rs.50</label><br>
+                <label><input type="checkbox" value="30"> Chutney - Rs.30</label>
+            </div>
+            <div id="protein" class="menu-section">
+                <!-- Add protein items here -->
+				 <label><input type="checkbox" value="50"> Chicken Curry - Rs.50</label><br>
+                <label><input type="checkbox" value="60"> Mutton Curry - Rs.60</label><br>
+                <label><input type="checkbox" value="40"> Egg Curry - Rs.40</label><br>
+                <label><input type="checkbox" value="50"> Fish Curry - Rs.50</label><br>
+                <label><input type="checkbox" value="30"> Soya Chunks - Rs.30</label><br>
+                <label><input type="checkbox" value="40"> Chana Masala - Rs.40</label>
+            </div>
+            <div id="veggies" class="menu-section">
+				<label><input type="checkbox" value="30"> Mixed Veg Curry - Rs.30</label><br>
+                <label><input type="checkbox" value="40"> Aloo Gobi - Rs.40</label><br>
+                <label><input type="checkbox" value="50"> Bhindi Masala - Rs.50</label><br>
+                <label><input type="checkbox" value="40"> Baingan Bharta - Rs.40</label><br>
+                <label><input type="checkbox" value="50"> Paneer Bhurji - Rs.50</label><br>
+                <label><input type="checkbox" value="30"> Cabbage Sabzi - Rs.30</label>
+            </div>
+            <div id="touches" class="menu-section">
+				<label><input type="checkbox" value="10"> Pickle - Rs.10</label><br>
+                <label><input type="checkbox" value="20"> Raita - Rs.20</label><br>
+                <label><input type="checkbox" value="10"> Papad - Rs.10</label><br>
+                <label><input type="checkbox" value="20"> Salad - Rs.20</label><br>
+                <label><input type="checkbox" value="15"> Chutney - Rs.15</label>
+            </div>
+            <div id="sweets" class="menu-section">
+				 <label><input type="checkbox" value="30"> Gulab Jamun - Rs.30</label><br>
+                <label><input type="checkbox" value="40"> Jalebi - Rs.40</label><br>
+                <label><input type="checkbox" value="50"> Rasgulla - Rs.50</label><br>
+                <label><input type="checkbox" value="30"> Barfi - Rs.30</label><br>
+                <label><input type="checkbox" value="40"> Ladoo - Rs.40</label><br>
+                <label><input type="checkbox" value="50"> Halwa - Rs.50</label>
+            </div>
+            <div class="total-amount">
+                Total Amount For Base Selection: Rs.<span id="total">0</span>
+            </div>
+            <button id="next-step">Next Step</button>
+        </main>
+		
+		
+        <footer>
+            <p>Contact: +91 808 916 9691 | Helping-Hands@.org</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
